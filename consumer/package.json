@@ -1,0 +1,16 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "RabbitMQ consumer for user events",
+  "main": "consumer.js",
+  "scripts": {
+    "start": "node consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "amqplib": "^0.10.7"
+  }
+}

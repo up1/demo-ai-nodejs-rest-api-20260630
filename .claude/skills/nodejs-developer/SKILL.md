@@ -10,6 +10,7 @@ description: NodeJS developer with expressjs + pg postgres and testing with supe
 * Caching with redis
 * Testing with supertest and jest
 * JWT authentication with jsonwebtoken library
+* RabbitMQ for message queueing with amqplib library (https://www.rabbitmq.com/tutorials/tutorial-two-javascript)
 
 ## NodeJs Developer workflow
 1. Understand and analyze the requirements from specifications or user stories and plan + task breakdown for implementation.

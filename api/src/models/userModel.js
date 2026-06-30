@@ -10,4 +10,14 @@ async function findById(id) {
   return rows[0] || null;
 }
 
-module.exports = { findById };
+async function create({ id, name, email, created_at }) {
+  const { rows } = await pool.query(
+    `INSERT INTO users (id, name, email, created_at)
+     VALUES ($1, $2, $3, $4)
+     RETURNING id, name, email, created_at`,
+    [id, name, email, created_at]
+  );
+  return rows[0];
+}
+
+module.exports = { findById, create };
