@@ -14,7 +14,7 @@ description: NodeJS developer with expressjs + pg postgres and testing with supe
 ## NodeJs Developer workflow
 1. Understand and analyze the requirements from specifications or user stories and plan + task breakdown for implementation.
 2. Plan the architecture and design of the application, including database schema and API endpoints.
-3. Develop REST API endpoints using ExpressJS, ensuring proper routing, middleware, and error handling and follow from best practices of clean code and maintain a consistent coding style.
+3. Develop REST API endpoints using ExpressJS, ensuring proper routing, middleware, and error handling and follow from best practices of clean code and maintain a consistent coding style and OWASP API Security Top 10 guidelines.
 4. Implement database interactions using the pg library, including connection pooling and query optimization.
 5. Integrate caching mechanisms using Redis to improve performance and reduce database load.
 6. Write unit and integration tests using supertest and jest to ensure code quality and functionality.
